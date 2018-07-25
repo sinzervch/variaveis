@@ -4,8 +4,12 @@
 
 	//var_dump($nome);
 
-	$ip = $_SERVER["SCRIPT_NAME"];
+	$ip = $_SERVER["REMOTE_ADDR"];
 
 	echo $ip;
+
+	$script = $_SERVER["SCRIPT_NAME"];
+
+	echo $script
 
 ?>
